@@ -1,8 +1,8 @@
 public class BMI {
 
 
-    double height;
-    double weight;
+    static double height;
+    static double weight;
 
 
     public BMI()
@@ -11,7 +11,7 @@ public class BMI {
         this.weight = weight;
     }
 
-    public Double calculateBmi(double weight, double height){
+    public  static Double calculateBmi(double weight, double height){
 
         return weight/(Math.pow(height, 2));
     }
